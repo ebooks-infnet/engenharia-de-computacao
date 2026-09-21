@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-book Interativo Engenharia da Computação</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -43,7 +42,6 @@
 </head>
 <body class="h-screen max-h-screen overflow-hidden font-sans antialiased">
 
-    <!-- ROOT CONTAINER -->
     <div id="app-root" class="h-screen max-h-screen overflow-hidden flex flex-col transition-colors duration-200">
         
         <!-- BARRA DE NAVEGAÇÃO SUPERIOR -->
@@ -64,7 +62,6 @@
                 </div>
             </div>
 
-            <!-- Lado Direito: Pesquisa, Marcadores, Fonte e Temas -->
             <div class="flex items-center justify-between md:justify-end space-x-2 w-full md:w-auto border-t md:border-t-0 pt-2 md:pt-0">
                 <div class="flex items-center space-x-1">
                     <button id="tab-btn-search" onclick="toggleTabPanel('search')" class="px-3 py-1.5 rounded-lg border border-current text-xs font-bold hover:bg-black/5 dark:hover:bg-white/5 transition-all flex items-center space-x-1">
@@ -103,7 +100,6 @@
             </div>
         </header>
 
-        <!-- PAINÉIS FLUTUANTES SUSPENSOS -->
         <div id="search-panel" class="hidden absolute top-32 md:top-[68px] right-4 w-80 border rounded-xl shadow-2xl z-50 p-4 max-h-[70vh] flex flex-col space-y-4">
             <div class="relative">
                 <input id="search-input" type="text" placeholder="Pesquisar no eBook..." oninput="handleSearch(this.value)" class="w-full px-3 py-2 pl-9 rounded-lg border text-sm bg-transparent border-current focus:ring-1 focus:ring-[#23599c] focus:outline-none" />
@@ -133,12 +129,12 @@
           {
             id: 1,
             title: "1. Engenharia da Computação: o que é e qual seu papel na era da IA?",
-            pageRange: "Págs 1-5",
+            pageRange: "Págs 1-6",
             content: [
               "A **Engenharia da Computação** forma profissionais capazes de entender a tecnologia como um sistema completo: do circuito e do processador ao software, às redes e às aplicações de inteligência artificial. Essa combinação ganhou peso à medida que a IA passou a automatizar partes da execução técnica, sem eliminar a necessidade de projetar arquiteturas, integrar componentes, avaliar restrições e sustentar sistemas complexos. Para quem procura **tudo sobre Engenharia da Computação**, esta página funciona como um mapa da formação, das competências, das áreas de atuação e dos caminhos de carreira.",
               "## **Engenharia da Computação: o que é?**",
               "Se a dúvida é **o que é Engenharia de Computação**, pense em uma área que aplica princípios de engenharia à construção de sistemas computacionais. Ela reúne programação, algoritmos, arquitetura de computadores, sistemas digitais, eletrônica, redes, sistemas embarcados e engenharia de software. As recomendações curriculares da ACM e da IEEE Computer Society tratam Computer Engineering como uma disciplina própria da computação, com conhecimentos que atravessam circuitos, arquitetura, software, redes, segurança e sistemas embarcados.",
-              "Isso explica por que hardware e software não são dois mundos isolados dentro dessa formação. Um equipamento inteligente precisa de componentes físicos para captar e processar informações e de programas para definir como ele deve se comportar.",
+              "Isso explica por que **hardware e software** não são dois mundos isolados dentro dessa formação. Um equipamento inteligente precisa de componentes físicos para captar e processar informações e de programas para definir como ele deve se comportar.",
               "A própria palavra computação é mais ampla do que o nome de um curso. Ela envolve processos, modelos e sistemas usados para representar, processar e transformar informação. Essa visão mais abrangente está relacionada ao conceito de **computação**.",
               "Já a relação **computação e informática** ajuda a separar dois termos usados como sinônimos em algumas conversas, embora tenham alcances diferentes: computação abrange também os fundamentos e a construção dos sistemas, enquanto informática costuma estar associada à aplicação e ao uso desses recursos.",
               "Na **Engenharia de Computação**, a formação reúne fundamentos de programação, arquitetura de computadores, eletrônica digital, redes e sistemas embarcados para permitir o desenvolvimento de soluções que integram software e componentes físicos. Essa mesma base também pode aparecer em cursos denominados **Engenharia em Computação**, nos quais o estudante aprende a projetar, testar e integrar sistemas computacionais, considerando aspectos como processamento, memória, comunicação entre dispositivos, desempenho e segurança.",
@@ -194,7 +190,7 @@
           {
             id: 2,
             title: "2. O que diferencia as melhores faculdades de Engenharia da Computação?",
-            pageRange: "Págs 5-11",
+            pageRange: "Págs 7-13",
             content: [
               "Escolher entre as **melhores faculdades de Engenharia da Computação** exige olhar além do nome da instituição, do preço ou da modalidade. Indicadores do MEC, matriz curricular, laboratórios, projetos, professores e atualização tecnológica ajudam a entender o que existe por trás da proposta acadêmica. E, para quem precisa de flexibilidade, também é necessário verificar como as novas regras de presencialidade afetam a rotina. Antes de comparar cursos, vale conhecer melhor a **engenharia da computação** e o tipo de formação que esse bacharelado deve oferecer.",
               "## **Como usar as notas do MEC para avaliar uma faculdade?**",
@@ -299,7 +295,7 @@
           {
             id: 3,
             title: "3. Engenharia de Computação EAD: melhores alternativas após o fim do EAD 100% online",
-            pageRange: "Págs 11-17",
+            pageRange: "Págs 14-20",
             content: [
               "Quem procura **Engenharia de Computação EAD** precisa considerar uma mudança importante: pelas regras atuais do MEC, cursos do grupo Engenharia, Produção e Construção não podem mais ser ofertados integralmente a distância nas novas ofertas. Isso não acabou com a possibilidade de estudar com flexibilidade, mas mudou as alternativas disponíveis e tornou mais importante avaliar como cada formação combina aulas remotas, atividades presenciais, professores, projetos e prática. Antes de comparar essas opções, vale compreender o escopo da **engenharia da computação** e quanto da sua escolha depende da integração entre software e sistemas físicos.",
               "## **O que mudou na Engenharia de Computação EAD?**",
@@ -397,11 +393,11 @@
           {
             id: 4,
             title: "4. Engenharia da Computação: quantos anos dura a faculdade?",
-            pageRange: "Págs 17-18",
+            pageRange: "Págs 21-22",
             content: [
               "Ao pesquisar **quantos anos dura o curso de Engenharia da Computação** são necessários para concluir a faculdade, cinco anos é a principal referência. Esse período está ligado à carga horária e à estrutura esperada de uma graduação em Engenharia, que precisa combinar fundamentos, prática e desenvolvimento progressivo de competências. Mais do que contar semestres, portanto, vale entender o que é construído durante esse tempo. Para conhecer a área de forma mais ampla, a **engenharia da computação** integra conhecimentos de software, sistemas computacionais e componentes físicos.",
               "## **Quantos anos dura uma faculdade em Engenharia da Computação?**",
-              "Em geral, **Engenharia da Computação dura cinco anos, ou dez semestres**. As atuais Diretrizes Curriculares Nacionais dos cursos de Engenharia remetem às regras de carga horária e integralização da Resolução CNE/CES n° 2/2007. Essa norma estabelece 3.600 horas como carga mínima para Engenharias e usa cinco anos como referência mínima de integralização para cursos entre 3.600 e 4.000 horas. A duração concreta depende do projeto pedagógico e da organização da instituição.",
+              "Em geral, **Engenharia da Computação dura cinco anos, ou dez semestres**. As atuais Diretrizes Curriculares Nacionais dos cursos de Engenharia remetem às regras de carga horária e integralização da Resolução CNE/CES nº 2/2007. Essa norma estabelece 3.600 horas como carga mínima para Engenharias e usa cinco anos como referência mínima de integralização para cursos entre 3.600 e 4.000 horas. A duração concreta depende do projeto pedagógico e da organização da instituição.",
               "Assim, para a dúvida **\"Engenharia da Computação: quantos anos dura?\"**, cinco anos é uma referência consistente, mas não significa que todos os estudantes seguirão exatamente o mesmo calendário. Reprovações, trancamentos, aproveitamento de disciplinas e outras situações acadêmicas podem alterar o tempo individual de conclusão.",
               "Esse período também tem relação com a amplitude da formação. Engenharia não consiste apenas em aprender uma sequência de ferramentas. O estudante precisa desenvolver fundamentos e, progressivamente, aprender a relacionar programação, arquitetura de sistemas, redes, software, sistemas digitais e outras camadas da computação.",
               "Uma busca próxima é **\"Engenharia de hardware: quantos anos?\"**. Nesse caso, é importante separar especialização profissional de graduação: hardware pode ser uma área de atuação e aprofundamento dentro de formações como Engenharia da Computação, mas não existe uma duração nacional única para uma graduação chamada \"Engenharia de Hardware\".",
@@ -417,7 +413,7 @@
           {
             id: 5,
             title: "5. Salário de Engenharia da Computação: quanto ganha quem atua na estrutura da tecnologia",
-            pageRange: "Págs 18-20",
+            pageRange: "Págs 23-25",
             content: [
               "O **salário de um engenheiro de computação** pode variar bastante, já que esse profissional encontra oportunidades em áreas como hardware, software, sistemas operacionais, infraestrutura e integração de tecnologias. Por isso, mais do que considerar apenas uma média salarial, é importante entender como as diferentes atribuições e níveis de especialização influenciam a remuneração. Essa diversidade de caminhos também ajuda a compreender melhor o campo da **engenharia da computação** e as possibilidades de atuação disponíveis para quem segue essa carreira.",
               "## **Fatores que influenciam o salário de um engenheiro da computação**",
@@ -427,8 +423,7 @@
               "• **complexidade do trabalho:** integrar componentes, prever falhas e projetar sistemas escaláveis exige uma visão mais ampla do que executar tarefas técnicas isoladas;",
               "• **setor, empresa e região:** porte da organização, segmento econômico e localização influenciam as faixas salariais;",
               "• **capacidade de integração:** entender como software, hardware, dados e infraestrutura se conectam amplia o conjunto de problemas que o profissional consegue resolver.",
-              "É aí que aparece uma relação importante com as **Engenharias Tech**: o valor não está apenas em dominar uma ferramenta, mas em compreender estruturas, conectar tecnologias e tomar decisões de projeto.",
-              "Essa visão sistêmica amplia as possibilidades de atuação em funções ligadas à arquitetura, integração e desenvolvimento de sistemas complexos. A abordagem está alinhada ao posicionamento de Engenharias Tech como formações voltadas à construção estrutural da tecnologia, e não apenas à operação de ferramentas.",
+              "É aí que aparece uma relação importante com as **Engenharias Tech**: o valor não está apenas em dominar uma ferramenta, mas em compreender estruturas, conectar tecnologias e tomar decisões de projeto. Essa visão sistêmica amplia as possibilidades de atuação em funções ligadas à arquitetura, integração e desenvolvimento de sistemas complexos. A abordagem está alinhada ao posicionamento de Engenharias Tech como formações voltadas à construção estrutural da tecnologia, e não apenas à operação de ferramentas.",
               "## **Salário médio de um engenheiro da computação no Brasil**",
               "Não existe uma única média salarial para toda a Engenharia da Computação. Os dados trabalhistas são organizados por ocupações específicas.",
               "Em levantamento atualizado em **3 de agosto de 2026**, o Portal Salário, com base em registros do CAGED de julho de 2025 a junho de 2026, aponta média mensal de **R$ 14.430,84** para engenheiro de aplicativos em computação, **R$ 13.395,68** para engenheiro de equipamentos em computação e **R$ 14.443,24** para engenheiros de sistemas operacionais em computação.",
@@ -444,7 +439,7 @@
           {
             id: 6,
             title: "6. O que faz um engenheiro de computação em um mercado dominado por IA?",
-            pageRange: "Págs 20-21",
+            pageRange: "Págs 25-27",
             content: [
               "Se ferramentas de inteligência artificial já ajudam a escrever código, revisar informações e automatizar tarefas técnicas, **o que faz um engenheiro de computação** nesse contexto? A resposta está menos na execução isolada e mais na capacidade de projetar, integrar, testar e evoluir sistemas computacionais. É essa visão de conjunto que ajuda a explicar o papel do **engenheiro da computação** e a importância da formação em **engenharia da computação** em projetos nos quais software, hardware, dados e infraestrutura precisam funcionar de forma coordenada.",
               "## **Principais funções de um engenheiro da computação**",
@@ -471,7 +466,7 @@
           {
             id: 7,
             title: "7. Engenheiro de hardware: o profissional que constrói a base física da IA",
-            pageRange: "Págs 21-23",
+            pageRange: "Págs 28-29",
             content: [
               "Quando se fala em inteligência artificial, modelos e aplicativos costumam receber mais atenção. Mas toda IA precisa de equipamentos capazes de processar, armazenar e movimentar dados. Para quem pesquisa **\"engenheiro de hardware: o que faz?\"**, é justamente aí que começa a resposta: esse profissional projeta, desenvolve, testa e integra componentes físicos de sistemas computacionais. Essa é uma das possibilidades de carreira para quem se forma em **engenharia da computação**.",
               "## **Engenheiro de hardware: o que é?**",
@@ -494,7 +489,7 @@
           {
             id: 8,
             title: "8. Quanto ganha um engenheiro de hardware em um mercado movido pela IA?",
-            pageRange: "Págs 23-24",
+            pageRange: "Págs 30-32",
             content: [
               "Quando a inteligência artificial ganha espaço, cresce também a demanda por processamento, memória, armazenamento e redes capazes de sustentar aplicações mais exigentes. Por isso, entender **quanto ganha um engenheiro de hardware** envolve olhar não só para uma média salarial, mas também para experiência, setor, localização e complexidade dos projetos. Essa carreira é uma das possibilidades ligadas à formação em **engenharia da computação** e ganha relevância porque a IA depende de infraestrutura física para funcionar.",
               "## **Como está o mercado de trabalho para engenheiros de hardware?**",
@@ -519,7 +514,7 @@
           {
             id: 9,
             title: "9. O que é computação e por que ela se tornou estratégica na era da IA",
-            pageRange: "Págs 24-26",
+            pageRange: "Págs 32-34",
             content: [
               "A computação ajuda a explicar o que existe por trás de aplicativos, plataformas digitais e sistemas de inteligência artificial. Mais do que operar ferramentas, a área trata de como informações são representadas, processadas e transformadas em soluções por meio de algoritmos, software e hardware. Com a IA assumindo parte da execução, esse conhecimento ganhou peso estratégico: empresas precisam projetar sistemas confiáveis, integrar tecnologias e avaliar decisões técnicas que afetam o negócio. Uma formação ligada a essa visão estrutural é a **engenharia da computação**.",
               "## **O que é computação?**",
@@ -550,7 +545,7 @@
           {
             id: 10,
             title: "10. Faculdade de Engenharia de Computação: como escolher o curso alinhado ao novo mercado",
-            pageRange: "Págs 26-30",
+            pageRange: "Págs 35-40",
             content: [
               "Escolher uma **faculdade de Engenharia de Computação** exige olhar além de mensalidade, localização ou lista de disciplinas. Inteligência artificial, automação e sistemas digitais mudaram parte do trabalho técnico e aumentaram o valor de competências como arquitetura de sistemas, integração entre tecnologias e tomada de decisão em projetos complexos. Por isso, vale entender primeiro a proposta da **engenharia da computação** e, depois, comparar os cursos de acordo com o tipo de formação e de carreira que fazem sentido para você.",
               "## **Como saber qual é o melhor curso para mim?**",
@@ -635,7 +630,7 @@
           {
             id: 11,
             title: "11. Engenharia de hardware: a infraestrutura que torna a IA possível",
-            pageRange: "Págs 30-32",
+            pageRange: "Págs 41-43",
             content: [
               "Modelos de inteligência artificial parecem existir apenas no software, mas cada treinamento, inferência e troca de dados depende de uma infraestrutura física capaz de executar essas operações. É aí que a **engenharia de hardware** entra: ela trata do projeto e da integração dos componentes que sustentam sistemas computacionais, com atenção ao desempenho, confiabilidade e eficiência. Para quem quer compreender como essas estruturas se conectam à formação mais ampla em **engenharia da computação**, esse campo ajuda a enxergar a IA além da camada de aplicações.",
               "## **O que é engenharia de hardware?**",
@@ -667,7 +662,7 @@
           {
             id: 12,
             title: "12. Computação e informática: por que essa diferença importa com a IA?",
-            pageRange: "Págs 32-34",
+            pageRange: "Págs 43-44",
             content: [
               "**Computação e informática** costumam ser tratadas como sinônimos, mas apontam para formas diferentes de lidar com a tecnologia. A informática está mais ligada ao uso, à organização e à administração de recursos computacionais; a computação também envolve criar métodos, algoritmos e sistemas capazes de resolver problemas. Entender essa distinção ajuda quem quer avançar da operação de ferramentas para a construção de tecnologia. Uma das formações relacionadas a esse caminho é a **engenharia da computação**.",
               "## **O que é informática?**",
@@ -690,7 +685,7 @@
           {
             id: 13,
             title: "13. O que vou estudar no curso de Engenharia da Computação?",
-            pageRange: "Págs 34-35",
+            pageRange: "Págs 45-47",
             content: [
               "Escolher uma graduação fica mais simples quando você consegue enxergar o que realmente vai estudar. As **matérias de Engenharia da Computação** passam por programação, dados, redes, sistemas, inteligência artificial, sistemas embarcados e robótica, combinando fundamentos de software e hardware para desenvolver uma visão integrada da tecnologia. Esse conjunto de conhecimentos ajuda a compreender, de forma mais ampla, o campo da **engenharia da computação** e suas diferentes possibilidades de atuação.",
               "## **O que se estuda em Engenharia da Computação?**",
@@ -720,7 +715,7 @@
           {
             id: 14,
             title: "14. Nota de corte Engenharia de Computação: como consultar e calcular sua nota",
-            pageRange: "Págs 35-37",
+            pageRange: "Págs 47-49",
             content: [
               "Entender a **nota de corte de Engenharia de Computação** ajuda a planejar sua participação no SISU sem depender de um número que pode mudar de uma edição para outra. O mais útil é saber onde consultar a pontuação atualizada, entender como os pesos do Enem afetam sua classificação e acompanhar as opções disponíveis para o seu perfil. Se você ainda está conhecendo a graduação, a **engenharia da computação** reúne fundamentos de software e hardware aplicados à construção de sistemas tecnológicos.",
               "## **Nota de corte para Engenharia da Computação: onde consultar?**",
@@ -751,7 +746,7 @@
           {
             id: 15,
             title: "15. Engenharia da Computação vale a pena na era da IA?",
-            pageRange: "Págs 37-39",
+            pageRange: "Págs 50-52",
             content: [
               "Decidir se **Engenharia da Computação vale a pena** passa menos por descobrir se ela é \"a profissão do futuro\" e mais por entender que tipo de problema você quer aprender a resolver. A **engenharia da computação** combina software, hardware, arquitetura de sistemas e fundamentos de engenharia, uma base relevante quando a IA automatiza tarefas específicas, mas cria novos desafios de integração, infraestrutura, dados e segurança.",
               "## **Como está o mercado de trabalho para Engenharia da Computação no Brasil e no mundo?**",
@@ -784,7 +779,7 @@
           {
             id: 16,
             title: "16. Engenharia da Computação: valor da faculdade e o que influencia a mensalidade",
-            pageRange: "Págs 39-41",
+            pageRange: "Págs 52-55",
             content: [
               "Pesquisar o **valor da Engenharia da Computação** é um passo importante para planejar a graduação, mas a mensalidade conta apenas uma parte da história. Laboratórios, atividades práticas, corpo docente, atualização acadêmica e formato do curso ajudam a explicar por que os preços podem variar tanto entre instituições. Antes de comparar apenas parcelas, vale conhecer melhor a **engenharia da computação** e entender quais recursos podem influenciar o custo e a experiência de formação.",
               "## **O que determina o valor de uma faculdade de Engenharia da Computação?**",
@@ -841,7 +836,7 @@
           {
             id: 17,
             title: "17. Hardware: o que é e por que continua estratégico na era da IA",
-            pageRange: "Págs 41-43",
+            pageRange: "Págs 56-58",
             content: [
               "Quando pensamos em inteligência artificial, é fácil lembrar de modelos, aplicativos e algoritmos. Mas todos eles dependem de uma estrutura física capaz de processar, armazenar e transmitir informações. É aí que entra o **hardware**: dos componentes de um celular aos servidores de grandes infraestruturas computacionais. Entender essa camada ajuda a perceber por que áreas ligadas à **engenharia da computação** continuam relevantes mesmo quando parte das tarefas digitais é automatizada.",
               "## **O que é hardware?**",
@@ -873,7 +868,7 @@
           {
             id: 18,
             title: "18. Engenharia da Computação ou Ciência da Computação: qual combina mais com seu perfil?",
-            pageRange: "Págs 43-45",
+            pageRange: "Págs 58-60",
             content: [
               "Escolher entre **Engenharia da Computação ou Ciência da Computação** não significa descobrir qual graduação é melhor, mas qual delas se aproxima mais dos problemas que você gostaria de resolver. As duas participam da criação de software, inteligência artificial e sistemas digitais, porém seguem enfoques diferentes: a **engenharia da computação** amplia o olhar para a integração entre software e componentes físicos, enquanto a Ciência da Computação aprofunda os fundamentos e métodos da computação.",
               "## **Qual é a diferença entre Ciência da Computação e Engenharia da Computação?**",
@@ -901,7 +896,7 @@
           {
             id: 19,
             title: "19. Hardware e Software: entenda a diferença e como a Engenharia une os dois para comandar a tecnologia",
-            pageRange: "Págs 45-47",
+            pageRange: "Págs 61-63",
             content: [
               "Um robô, um smartphone ou uma aplicação de inteligência artificial só funciona porque componentes físicos conseguem executar instruções criadas por programas. Entender **hardware e software** como partes complementares ajuda a enxergar o que existe por trás das interfaces e por que integrar essas camadas é tão importante em sistemas complexos. Essa conexão é um dos pontos presentes na formação em **engenharia da computação**.",
               "## **O que é software?**",
@@ -931,7 +926,7 @@
           {
             id: 20,
             title: "20. Ciência da Computação: salário, carreira e fatores que influenciam os ganhos",
-            pageRange: "Págs 47-49",
+            pageRange: "Págs 63-65",
             content: [
               "Pesquisar **Ciência da Computação e salário** exige um cuidado: o diploma não leva a um único cargo. Quem se forma na área pode atuar com desenvolvimento de software, pesquisa, inteligência artificial, dados, segurança e outras especialidades, cada uma com responsabilidades e remunerações diferentes. Por isso, números salariais fazem mais sentido quando associados a uma ocupação concreta. Já a **engenharia da computação** pode ser considerada por quem se interessa por uma formação que conecta software a outras camadas dos sistemas computacionais.",
               "## **Mercado de trabalho na área de computação**",
@@ -962,7 +957,7 @@
           {
             id: 21,
             title: "21. Faculdade de Hardware: qual formação escolher para projetar componentes?",
-            pageRange: "Págs 49-50",
+            pageRange: "Págs 66-68",
             content: [
               "Quem procura uma **faculdade de hardware** geralmente quer ir além de montar ou configurar computadores: o interesse está em entender como circuitos, processadores, sensores e dispositivos são projetados e integrados ao software. Nesse caso, **engenharia da computação** é uma das formações mais diretamente relacionadas, porque combina fundamentos computacionais e de engenharia para trabalhar com sistemas físicos e digitais.",
               "## **O que se deve estudar para trabalhar com hardware?**",
@@ -978,7 +973,7 @@
               "• espaço para programação e integração com software;",
               "• laboratórios e equipamentos compatíveis com as atividades propostas;",
               "• projetos que exijam combinar conhecimentos de diferentes disciplinas;",
-              "• professores com experiência acadêmica e aplicada; e",
+              "• professores com experiência acadêmica e aplicada;",
               "• oportunidades para testar, validar e revisar soluções.",
               "Essa área se conecta ao conceito de **Engenharias Tech**, que relaciona engenharia à construção e integração de sistemas tecnológicos complexos.",
               "Essa visão sistêmica é especialmente útil porque um projeto de hardware raramente termina no componente físico. Um sensor precisa fornecer dados para algum sistema; um processador executa software; um dispositivo conectado precisa se comunicar com redes e lidar com requisitos de segurança.",
@@ -999,7 +994,6 @@
           }
         ];
 
-        // --- SISTEMA DE ESTADO ---
         const state = {
             currentChapterIndex: -1,
             theme: 'light',
@@ -1029,7 +1023,6 @@
             if (el) el.innerText = state.bookmarks.length;
         }
 
-        // --- PAINÉIS FLUTUANTES ---
         function toggleTabPanel(panelName) {
             const searchPanel = document.getElementById('search-panel');
             const bookmarksPanel = document.getElementById('bookmarks-panel');
@@ -1079,7 +1072,6 @@
             }
         }
 
-        // --- NAVEGAÇÃO E TEMAS ---
         function setChapter(index) {
             state.currentChapterIndex = index;
 
@@ -1124,7 +1116,7 @@
                     panel: 'bg-white border-slate-200 text-slate-800'
                 },
                 dark: { 
-                    body: 'bg-[#0f172a] text-slate-100',
+                    body: 'bg-[#0f172a] text-slate-100', 
                     topNavigation: 'bg-[#0f172a] border-slate-800 text-slate-100',
                     panel: 'bg-[#0f172a] border-slate-800 text-slate-100'
                 }
@@ -1191,7 +1183,6 @@
             }
         }
 
-        // --- DESTAQUE E FORMATAÇÃO DE TEXTO ---
         function highlightText(text, search) {
             if (!text || !search || !search.trim()) return text;
             const escapedSearch = search.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -1242,7 +1233,6 @@
             return `<p class="mb-4 text-justify leading-relaxed">${renderFormattedText(paragraph, state.searchQuery, false)}</p>`;
         }
 
-        // --- RENDERIZAÇÃO PRINCIPAL ---
         function renderContent() {
             const container = document.getElementById('scroll-container');
             if (!container) return;
@@ -1256,9 +1246,9 @@
                             <img src="https://faculdadeinfnet.com.br/wp-content/uploads/sites/10/2023/08/Artboard-2.png" alt="Logo Infnet Grande" class="h-20 object-contain" />
                         </div>
 
-                        <h1 class="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight text-[#689ccb] drop-shadow-sm">
+                        <h1 class="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight leading-tight text-white drop-shadow-sm">
                             <span class="block">E-book</span>
-                            <span class="block text-white">Engenharia da Computação</span>
+                            <span class="block text-[#689ccb]">Engenharia da Computação</span>
                         </h1>
                         
                         <p class="text-base sm:text-lg md:text-xl text-white font-medium leading-relaxed max-w-xl">
@@ -1360,7 +1350,6 @@
             container.innerHTML = articleHTML;
         }
 
-        // --- DROPDOWNS ---
         function renderBookmarksPanel() {
             const container = document.getElementById('bookmarks-panel-content');
             if (!container) return;
